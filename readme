@@ -1,0 +1,25 @@
+apt purge snapd	purge	英[pɜːdʒ] 美[pɜːrdʒ]  v.清除，清洗(组织中的异己分子); 净化(心灵、风气等); 涤荡(污秽);
+snapd:可以解决apt不能解决的依赖问题
+
+df -ia   df:disk free
+
+sudo apt-get update  配置更新
+apt list --upgradable  有那些软件需要更新
+sudo apt-get upgrade   apt:advanced package tool
+sudo apt autoremove  更新完之后，会有一些不需要的旧组件需要情除，即可完成清理。
+
+
+sudo dmidecode | grep -A 9 "System Information"  查看笔记本型号
+
+psensor
+安装温度测试
+sudo apt-get install lm-sensors hddtemp
+sudo sensors-detect
+sensors
+
+sudo apt-get install psensor  psensor为可视化温度
+
+cat /proc/version 查看版本
+
+sudo gedit /etc/hosts  访问github时出现Your connection is not private，是因为host中进行了配置
+
